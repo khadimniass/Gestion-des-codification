@@ -4,11 +4,18 @@ import service.IService;
 import java.util.Scanner;
 
 public class Responsable extends Personne implements IService {
-
+    private final int TAILLE = 10;
+    private Pavillon[] pavillons = new Pavillon[TAILLE];
+    private int indexPavillon;
 
     @Override
-    public void addPavillon() {
-
+    public void addPavillon(Pavillon pavillon) {
+        if(indexPavillon<TAILLE){
+            pavillons[indexPavillon]=pavillon;
+            indexPavillon++;
+        }else{
+            System.out.println("le tableau est plein");
+        }
     }
 
     @Override
@@ -18,7 +25,11 @@ public class Responsable extends Personne implements IService {
 
     @Override
     public void listerPavillon() {
-
+        for (Pavillon pavillon: pavillons) {
+            if (pavillon!=null){
+                System.out.println(pavillon);
+            }
+        }
     }
 
     @Override
@@ -58,11 +69,8 @@ public class Responsable extends Personne implements IService {
             e.telephone=sc.next();
         etudiants[i]=e;
         }
-
         displayEtudiant(etudiants);
     }
-
-
     @Override
     public void affecterChambreBoursierLoge() {
 

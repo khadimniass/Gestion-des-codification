@@ -19,4 +19,9 @@ private int numPavillon;
     public void setNumPavillon(int numPavillon) {
         this.numPavillon = numPavillon;
     }
+
+    @Override
+    public String toString() {
+        return "[ id :"+id + "numeropav : "+numPavillon+" ]";
+    }
 }

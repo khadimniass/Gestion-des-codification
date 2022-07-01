@@ -1,9 +1,10 @@
 package service;
 
 import models.Etudiant;
+import models.Pavillon;
 
 public interface IService {
-    public void addPavillon();
+    public void addPavillon(Pavillon pavillon);
     public void SupprimerPavillon();
     public void listerPavillon();
 
