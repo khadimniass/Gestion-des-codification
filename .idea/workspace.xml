@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="278d4ae0-19e9-4eba-a5a1-08628823b121" name="Changes" comment="end for the first part insertion pav et Chambre">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codification/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codification/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codification/models/Chambre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codification/models/Chambre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codification/models/Pavillon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codification/models/Pavillon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codification/models/Responsable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codification/models/Responsable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codification/service/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codification/service/IService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Chambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Chambre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Pavillon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Pavillon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Responsable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Responsable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/IService.java" afterDir="false" />
-    </list>
+    <list default="true" id="278d4ae0-19e9-4eba-a5a1-08628823b121" name="Changes" comment="end for the first part insertion pav et Chambre" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +80,7 @@
       <workItem from="1656807669564" duration="8000" />
       <workItem from="1656880565546" duration="1029000" />
       <workItem from="1656891566733" duration="645000" />
+      <workItem from="1656893815711" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="deuxieme">
       <created>1656688617500</created>
@@ -107,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656708676991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="end for the first part insertion pav et Chambre">
+      <created>1656893844850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656893844850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
