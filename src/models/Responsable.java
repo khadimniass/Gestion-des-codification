@@ -6,13 +6,14 @@ import java.util.Scanner;
 public class Responsable extends Personne implements IService {
     private final int TAILLE = 10;
     private Pavillon[] pavillons = new Pavillon[TAILLE];
-    private int indexPavillon;
+    private int index=0;
+    private Chambre[] chambres = new Chambre[TAILLE];
 
     @Override
     public void addPavillon(Pavillon pavillon) {
-        if(indexPavillon<TAILLE){
-            pavillons[indexPavillon]=pavillon;
-            indexPavillon++;
+        if(index<TAILLE){
+            pavillons[index]=pavillon;
+            index++;
         }else{
             System.out.println("le tableau est plein");
         }
@@ -31,10 +32,12 @@ public class Responsable extends Personne implements IService {
             }
         }
     }
-
     @Override
-    public void addChambre() {
-
+    public void addChambre(Chambre chambre) {
+    if (index<TAILLE){
+        chambres[index]=chambre;
+        index++;
+    }
     }
 
     @Override
@@ -44,7 +47,11 @@ public class Responsable extends Personne implements IService {
 
     @Override
     public void listerChambre() {
-
+        for (Chambre chambre: chambres) {
+            if (chambre!=null){
+                System.out.println(chambre);
+            }
+        }
     }
 
     @Override

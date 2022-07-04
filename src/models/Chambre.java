@@ -2,8 +2,9 @@ package models;
 
 public class Chambre {
     private int id;
-    private int numeroChambre;
-    private String type;
+    private String numeroChambre;
+
+    private Pavillon pavillon;
 
     public int getId() {
         return id;
@@ -13,19 +14,31 @@ public class Chambre {
         this.id = id;
     }
 
-    public int getNumeroChambre() {
+    public String getNumeroChambre() {
         return numeroChambre;
     }
 
-    public void setNumeroChambre(int numeroChambre) {
+    public void setNumeroChambre(String numeroChambre) {
         this.numeroChambre = numeroChambre;
     }
 
-    public String getType() {
-        return type;
+    public Pavillon getPavillon() {
+        return pavillon;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setPavillon(Pavillon pavillon) {
+        this.pavillon = pavillon;
+    }
+
+    public String genNumberchambre(int numb){
+        return "CHAMBRE"+numb;
+    }
+    @Override
+    public String toString() {
+        return "Chambre { " +
+                "id=" + id +
+                ", numeroChambre=" + numeroChambre +
+                ", pavillon=" + pavillon +
+                " } ";
     }
 }

@@ -1,5 +1,6 @@
 package service;
 
+import models.Chambre;
 import models.Etudiant;
 import models.Pavillon;
 
@@ -8,7 +9,7 @@ public interface IService {
     public void SupprimerPavillon();
     public void listerPavillon();
 
-    public void addChambre();
+    public void addChambre(Chambre chambre);
     public void ArchiverChambre();
     public void listerChambre();
 
