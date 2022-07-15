@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="codification:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/codification_jar</output-path>
+    <root id="archive" name="codification.jar">
+      <element id="module-output" name="codification" />
+    </root>
+  </artifact>
+</component>

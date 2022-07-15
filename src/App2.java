@@ -1,18 +1,16 @@
-import models.Chambre;
 import models.Pavillon;
-import service.ServiceTableau;
-
+import service.CollectionService;
 import java.util.Scanner;
 
-public class App {
+public class App2 {
     public static void main(String[] args) {
-        ServiceTableau service = new ServiceTableau();
+        CollectionService service = new CollectionService();
         Scanner sc = new Scanner(System.in);
         System.out.println("****************** TAPER 1 POUR AJOUTER PAVILLON ******************");
         System.out.println("****************** TAPER 2 POUR AJOUTER CHAMBRE ******************");
         int choix = sc.nextInt();
-        switch (choix) {
-            case 1 -> {
+        switch (choix){
+            case 1->{
                 System.out.println("Combien de pavillon voulez vous ajouter ? :");
                 int indexpav = sc.nextInt();
                 for (int i = 0; i < indexpav; i++) {
@@ -25,24 +23,15 @@ public class App {
                     System.out.print("Nombre etage ? ");
                     int numbEtage = sc.nextInt();
                     pavillon.setNombreEtage(numbEtage);
-                    service.addPavillon(pavillon);
+                 //  System.out.println(pavillon);
+                   service.addPavillon(pavillon);
                 }
                 service.listerPavillon();
             }
             case 2 -> {
-                System.out.println("Combien de pavillon voulez vous ajouter ? :");
+                System.out.println("Combien de chambre voulez vous ajouter ? :");
                 int indexchambre = sc.nextInt();
-                for (int i = 0; i < indexchambre; i++) {
-                    Chambre chambre = new Chambre();
-                    chambre.setId(i+1);
-                    chambre.setNumeroChambre(chambre.genNumberchambre(i));
-                    service.listerPavillon();
-                    System.out.println("entre le numero de pavillon du chambre");
-                    int idPav= sc.nextInt();
-                    Pavillon p = new Pavillon();
-                    chambre.setPavillon(p);
-                }
-                service.listerChambre();
+                System.out.println("terminer");
             }
             default -> System.out.println("ce choix n'est paris en charge");
         }

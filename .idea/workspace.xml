@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="codification:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="278d4ae0-19e9-4eba-a5a1-08628823b121" name="Changes" comment="end for the first part insertion pav et Chambre" />
+    <list default="true" id="278d4ae0-19e9-4eba-a5a1-08628823b121" name="Changes" comment="end for the first part insertion pav et Chambre">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/codification_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/CollectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ServiceTableau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codification/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codification/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codification/models/Responsable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codification/models/Responsable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Responsable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Responsable.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,12 +61,22 @@
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/bamba/Documents/codes/projetsjava/codification&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App2">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="codification" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App2" />
       <module name="codification" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,7 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App2" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +106,11 @@
       <workItem from="1656807669564" duration="8000" />
       <workItem from="1656880565546" duration="1029000" />
       <workItem from="1656891566733" duration="645000" />
-      <workItem from="1656893815711" duration="674000" />
+      <workItem from="1656893815711" duration="1292000" />
+      <workItem from="1656921725188" duration="1510000" />
+      <workItem from="1656931024124" duration="121000" />
+      <workItem from="1657266584474" duration="3164000" />
+      <workItem from="1657840625510" duration="4361000" />
     </task>
     <task id="LOCAL-00001" summary="deuxieme">
       <created>1656688617500</created>
@@ -103,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656893844850</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="end for the first part insertion pav et Chambre">
+      <created>1656917068130</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656917068130</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +163,8 @@
     <MESSAGE value="ajouter Pavillon et le menu de navigation" />
     <MESSAGE value="end for the first part insertion pav et Chambre" />
     <option name="LAST_COMMIT_MESSAGE" value="end for the first part insertion pav et Chambre" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/codification$App2.ic" NAME="App2 Coverage Results" MODIFIED="1657844731976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
